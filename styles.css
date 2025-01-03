@@ -17,7 +17,9 @@ div {
     border-radius: 15px;
     padding-bottom: 100px;
     background-color: rgba(205, 243, 231, 0.733);
-    width: 22%;
+    width: 300px;
+    height: 150px;
+    position: relative;
 }
 
 button {
@@ -31,4 +33,10 @@ button {
 }
 button:hover {
     background-color: rgba(99, 227, 244, 0.797);
+}
+
+.current-time {
+    margin-top: 200px;
+    text-align: center;
+    position: absolute;
 }
