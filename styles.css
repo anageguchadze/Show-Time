@@ -2,8 +2,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100%;
     background-color: azure;
 }
 
@@ -12,7 +10,9 @@ div {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
     border: 1px solid black;
+    margin-top: 10%;
     padding: 10px;
     border-radius: 15px;
     padding-bottom: 100px;
